@@ -1,20 +1,19 @@
 # Simpad
 
-Simpad is a simple single-file Python text and Python editor with a small built-in toolbar, tabbed editing, syntax highlighting for Python, and a run output panel.
+Simpad is a small and practical tool for working with Python scripts. It is meant to be simple: open a file, edit it, and run it without extra setup.
 
-## Features
+## What it does
 
-- Create and edit text files
+- Open and edit text files
 - Create and edit Python scripts
-- Python syntax highlighting
+- Add basic Python syntax highlighting
 - Run Python code from the editor
-- Save/load files with a simple interface
-- Packaged as a single-file application for Linux and Windows
+- Save files with a simple interface
 
 ## Requirements
 
 - Python 3.10+
-- Tkinter (usually bundled with Python on most systems)
+- Tkinter
 
 ## Run from source
 
@@ -22,7 +21,7 @@ Simpad is a simple single-file Python text and Python editor with a small built-
 python simpad.py
 ```
 
-## Build standalone executables
+## Build standalone files
 
 ### Linux
 
@@ -30,7 +29,7 @@ python simpad.py
 ./build_app.sh
 ```
 
-This creates a single executable at:
+This creates a single executable file at:
 
 ```bash
 dist/simpad-linux
@@ -38,13 +37,13 @@ dist/simpad-linux
 
 ### Windows
 
-Run the batch script on Windows:
+Run this on Windows:
 
 ```cmd
 build_app.cmd
 ```
 
-This creates a single executable at:
+This creates a single executable file at:
 
 ```cmd
 dist-win\simpad-win.exe
@@ -52,4 +51,4 @@ dist-win\simpad-win.exe
 
 ## Notes
 
-The application stores its configuration in a local config file. When packaged as a standalone app, it uses a user-writable config location so settings can still be saved.
+The app keeps its settings in a local config file. When packaged as a standalone app, it uses a user-writable location so settings can still be saved.
