@@ -1,0 +1,7 @@
+build/
+dist/
+dist-win/
+__pycache__/
+*.pyc
+*.pyo
+*.spec
