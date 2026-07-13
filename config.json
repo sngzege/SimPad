@@ -1,0 +1,55 @@
+{
+    "window": {
+        "title": "Simpad by ege",
+        "width": 1000,
+        "min_width": 500,
+        "height": 700,
+        "min_height": 400
+    },
+
+    "theme": {
+        "background_color": "#1e1e2e",
+        "toolbar_bg": "#181825",
+        "toolbar_fg": "#cdd6f4",
+        "toolbar_hover_bg": "#313244",
+        "toolbar_active_bg": "#45475a",
+        "notebook_bg": "#1e1e2e",
+        "tab_bg": "#313244",
+        "tab_selected_bg": "#45475a",
+        "tab_fg": "#cdd6f4",
+        "tab_selected_fg": "#f5e0dc",
+        "text_bg": "#1e1e2e",
+        "text_fg": "#cdd6f4",
+        "text_selected_bg": "#585b70",
+        "text_cursor": "#f5e0dc",
+        "line_number_bg": "#181825",
+        "line_number_fg": "#6c7086",
+        "output_bg": "#11111b",
+        "output_fg": "#a6e3a1",
+        "output_error_fg": "#f38ba8",
+        "scrollbar_bg": "#313244",
+        "scrollbar_fg": "#585b70",
+        "settings_bg": "#1e1e2e",
+        "settings_fg": "#cdd6f4",
+        "settings_entry_bg": "#313244",
+        "settings_entry_fg": "#cdd6f4",
+        "settings_button_bg": "#89b4fa",
+        "settings_button_fg": "#1e1e2e",
+        "close_btn_fg": "#f38ba8",
+        "close_btn_hover_fg": "#eba0ac",
+        "add_tab_fg": "#a6e3a1",
+        "toolbar_border": "#313244"
+    },
+
+    "font": {
+        "family": "monospace",
+        "size": 12,
+        "font_color": "#cdd6f4"
+    },
+
+    "editor": {
+        "tab_size": 4,
+        "word_wrap": true,
+        "show_line_numbers": true
+    }
+}
